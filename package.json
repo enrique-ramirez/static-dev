@@ -1,0 +1,27 @@
+{
+  "name": "readme",
+  "version": "0.0.1",
+  "description": "Magically build docs while you write your code",
+  "main": "app.js",
+  "scripts": {
+    "build": "gulp build",
+    "html": "gulp html",
+    "sass": "gulp sass",
+    "dev": "gulp dev"
+  },
+  "author": "Enrique Ramírez <me@enrique-ramirez.com>",
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/Frudainc/readme.git"
+  },
+  "devDependencies": {
+    "connect": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "serve-static": "^1.11.1"
+  }
+}
