@@ -5,7 +5,7 @@ Readme
 
 ```
 npm install
-gulp dev
+npm run dev
 ```
 
 Then go to http://localhost:8080/index.html
